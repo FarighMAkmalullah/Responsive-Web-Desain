@@ -1,0 +1,95 @@
+@media screen and (max-width: 960px){
+	#wrapper{
+		width: 81%;
+	}
+	#header{
+		height: auto;
+	}
+	#image{
+		display: flex;
+		width: 100%;
+		justify-content: center;
+	}
+	#header #image img{
+		margin-left: 0px;
+	}
+	#header form{
+		margin-top: 0px;
+	}
+	#menu-utama{
+		width: 100%;
+	}
+	#menu-utama li{
+		float: left;
+	}
+	#daftar-artikel{
+		width: 100%;
+	}
+	#sidebar{
+		width: 95%;
+		padding: 20px;
+		float: none;
+	}
+}
+@media screen and (max-width: 460px){
+	#header{
+		margin-top: 0px;
+		padding: 20px;
+	}
+	#wrapper{
+		margin: 20px;
+		width: auto;
+	}
+	#menu-utama{
+		justify-content: center;
+	}
+	#menu-utama li{
+		text-align: center;
+		float: none;
+	}
+	#menu-utama ul li a{
+		text-align: center;
+	}
+	#header form{
+		display: flex;
+		justify-content: center;
+		margin-right: auto;
+		float: none;
+	}
+	.artikel{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+		justify-content: center;
+		padding: 10px;
+	}
+	.artikel img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+		border-radius: 10px;
+	}
+	.artikel div{
+		display: flex;
+		justify-content: center;
+	}
+	.artikel h1{
+		text-align: center;
+	}
+	.artikel b{
+		text-align: center;
+	}
+
+	.artikel p{
+		text-align: center;	
+	}
+
+	.artikel a{
+		text-align: center;
+	}
+	.form_concact{
+		width: 95%;
+	}
+}

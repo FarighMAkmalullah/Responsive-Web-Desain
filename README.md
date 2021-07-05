@@ -1,4 +1,6 @@
-akmal
+Nama = Farigh M. Akmalullah
+Nim = 12201777
+Prodi = Informatika A2
 
 # layout_web
 Studi kasus membuat halaman responsive
